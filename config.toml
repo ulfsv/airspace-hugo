@@ -1,12 +1,7 @@
 ################################# Default configuration ###################
 baseURL = "https://familypay-cms.onrender.com"
-<<<<<<< HEAD
-title = "FamilyPay | A debit card that anyone can use"
-theme = "airspace"
-=======
 title = "Airspace | Creative Agency Hugo Template"
-theme = "airspace-hugo"
->>>>>>> 16cefe244a02b674772f7832796032b3139515fa
+theme = "airspace"
 # post pagination
 paginate = "4"
 # post excerpt
