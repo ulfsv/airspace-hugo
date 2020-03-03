@@ -2,10 +2,6 @@
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
-<!-- carousel -->
-
-{{ partial "carousel.html" . }}
-
 <!-- banner -->
 {{ if $data.homepage.banner.enable }}
 {{ with $data.homepage.banner }}
