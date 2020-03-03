@@ -2,9 +2,10 @@
 banner:
   enable: true
   bg_image: images/backg_creditcard.jpg
-  title: A Digital Marketing <br/> & Design Agency
-  content: We love the Web and the work we do.We work closely with our clients to
-    deliver  the best possible solutions for their needs
+  title: Ett betalkort för alla
+  content: FamilyPay Mastercard är ett betalkort som alla kan använda. Du kan gå och
+    handla, dela pengar med dina vänner och resa vart du vill med det nya och flexibla
+    FamilyPay -kortet.
   button:
     enable: true
     label: Discover Our Project
