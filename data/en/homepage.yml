@@ -6,6 +6,7 @@ banner:
   content: FamilyPay Mastercard är ett betalkort som alla kan använda. Du kan gå och
     handla, dela pengar med dina vänner och resa vart du vill med det nya och flexibla
     FamilyPay -kortet.
+    test
   button:
     enable: true
     label: Discover Our Project
