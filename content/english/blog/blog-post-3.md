@@ -36,6 +36,8 @@ eaque commodi atque aperiam, debitis iste alias eligendi ut facilis earum! Imped
   border-bottom: 1px solid #efefef;
   }
 ```
+{{< load-plotly >}}
+
 {{/*% plot plot2 %*/}}
 var trace1 = {
   x: [1, 2, 3, 4],
@@ -54,6 +56,8 @@ fig = {
   data: data
 }
 {{/*% /plot %*/}}
+
+
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex error esse a dolore, architecto sapiente, aliquid
 commodi, laudantium eius nemo enim. Enim, fugit voluptatem rem molestiae. Sed totam quis accusantium iste
