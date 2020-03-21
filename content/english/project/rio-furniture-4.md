@@ -82,7 +82,7 @@ fig = {
   "config":{"responsive":true}
 {{% /plot %}}
 
-{{< plot plot2 >}}
+{{< plot fig >}}
 var trace1 = {
   x: [1, 2, 3, 4],
   y: [10, 15, 13, 17],
@@ -96,7 +96,7 @@ var trace2 = {
 };
 
 data = [trace1, trace2];
-figure = {
+fig = {
   data: data
 },
   "config":{"responsive":true}
