@@ -96,7 +96,7 @@ var trace2 = {
 };
 
 data = [trace1, trace2];
-fig = {
+figure = {
   data: data
 },
   "config":{"responsive":true}
