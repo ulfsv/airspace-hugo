@@ -6,6 +6,7 @@ image : "images/blog/blog-post-3.jpg"
 bg_image: "images/featue-bg.jpg"
 categories: ["Legacy Support"]
 tags: ["Android","Retro"]
+plotly: true
 description: "this is meta description"
 draft: false
 type: "post"
@@ -35,6 +36,24 @@ eaque commodi atque aperiam, debitis iste alias eligendi ut facilis earum! Imped
   border-bottom: 1px solid #efefef;
   }
 ```
+{{/*% plot plot2 %*/}}
+var trace1 = {
+  x: [1, 2, 3, 4],
+  y: [10, 15, 13, 17],
+  type: 'scatter'
+};
+
+var trace2 = {
+  x: [1, 2, 3, 4],
+  y: [16, 5, 11, 9],
+  type: 'scatter'
+};
+
+data = [trace1, trace2];
+fig = {
+  data: data
+}
+{{/*% /plot %*/}}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex error esse a dolore, architecto sapiente, aliquid
 commodi, laudantium eius nemo enim. Enim, fugit voluptatem rem molestiae. Sed totam quis accusantium iste
