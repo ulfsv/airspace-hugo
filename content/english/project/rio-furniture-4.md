@@ -21,7 +21,7 @@ information:
     info : "Jannie Kelonsky"
 ---
 
-{{<vega id="viz" spec="https://github.com/ulfsv/airspace-hugo/blob/master/content/english/vega.json">}}
+{{<vega id="viz" spec="vega.json">}}
   
 ## Behance Website Redesign
 
