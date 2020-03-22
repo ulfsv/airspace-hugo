@@ -21,7 +21,7 @@ information:
     info : "Jannie Kelonsky"
 ---
 
-{{<vega id="viz" spec="vega.json">}}
+{{<vega id="viz" spec="/vega.json">}}
   
 ## Behance Website Redesign
 
