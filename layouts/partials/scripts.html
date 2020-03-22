@@ -1,5 +1,8 @@
 <!-- owl carousel -->
 <script src="{{ "js/owl.carousel.min.js" | relURL }}"></script>
 
-<!-- plotly -->
-<script src="https://cdn.plot.ly/plotly-1.50.0.min.js"></script>
+{{ if .Params.vega }}
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
+{{ end }}
