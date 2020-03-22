@@ -5,7 +5,7 @@ draft: false
 image : "images/portfolio/work4.jpg"
 bg_image: "images/featue-bg.jpg"
 category: "UI/UX Design"
-vega = true
+vega : true
 information:
   - label : "Client"
     info : "Jannie Kelonsky"
