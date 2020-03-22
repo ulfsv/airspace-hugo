@@ -5,7 +5,7 @@ draft: false
 image : "images/portfolio/work4.jpg"
 bg_image: "images/featue-bg.jpg"
 category: "UI/UX Design"
-plotly: true
+vega = true
 information:
   - label : "Client"
     info : "Jannie Kelonsky"
@@ -21,87 +21,8 @@ information:
     info : "Jannie Kelonsky"
 ---
 
-{{/*% plot plot2 %*/}}
-var trace1 = {
-  x: [1, 2, 3, 4],
-  y: [10, 15, 13, 17],
-  type: 'scatter'
-};
-
-var trace2 = {
-  x: [1, 2, 3, 4],
-  y: [16, 5, 11, 9],
-  type: 'scatter'
-};
-
-data = [trace1, trace2];
-fig = {
-  data: data
-},
-  "config":{"responsive":true}
-{{/*% /plot %*/}}
-
-{{*% plot plot2 %*}}
-var trace1 = {
-  x: [1, 2, 3, 4],
-  y: [10, 15, 13, 17],
-  type: 'scatter'
-};
-
-var trace2 = {
-  x: [1, 2, 3, 4],
-  y: [16, 5, 11, 9],
-  type: 'scatter'
-};
-
-data = [trace1, trace2];
-fig = {
-  data: data
-},
-  "config":{"responsive":true}
-{{*% /plot %*}}
-
-
-{{% plot plot2 %}}
-var trace1 = {
-  x: [1, 2, 3, 4],
-  y: [10, 15, 13, 17],
-  type: 'scatter'
-};
-
-var trace2 = {
-  x: [1, 2, 3, 4],
-  y: [16, 5, 11, 9],
-  type: 'scatter'
-};
-
-data = [trace1, trace2];
-fig = {
-  data: data
-},
-  "config":{"responsive":true}
-{{% /plot %}}
-
-{{< plot plot2 >}}
-var trace1 = {
-  x: [1, 2, 3, 4],
-  y: [10, 15, 13, 17],
-  type: 'scatter'
-};
-
-var trace2 = {
-  x: [1, 2, 3, 4],
-  y: [16, 5, 11, 9],
-  type: 'scatter'
-};
-
-data = [trace1, trace2];
-fig = {
-  data: data
-},
-  "config":{"responsive":true}
-{{< /plot >}}
-
+{{<vega id="viz" spec="https://raw.githubusercontent.com/vega/vega/master/docs/examples/bar-chart.vg.json">}}
+  
 ## Behance Website Redesign
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus
