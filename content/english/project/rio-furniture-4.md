@@ -21,7 +21,16 @@ information:
     info : "Jannie Kelonsky"
 ---
 {{< load-plotly >}}
+
+## Plotly Time series example
+
 {{< plotly json="/plotly2.json" height="400px" >}}
+
+## Plotly Heat map with annotation
+
+{{< plotly json="/heatmap.json" height="400px" >}}
+
+## Vega Lite, bar and line chart 
 
 {{<vega id="viz" spec="/vega.json">}}
   
