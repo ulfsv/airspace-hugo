@@ -21,7 +21,7 @@ information:
     info : "Jannie Kelonsky"
 ---
 {{< load-plotly >}}
-{{< plotly json="/plotly.json" height="400px" >}}
+{{< plotly json="/plotly2.json" height="400px" >}}
 
 {{<vega id="viz" spec="/vega.json">}}
   
